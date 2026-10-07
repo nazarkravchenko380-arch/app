@@ -1,0 +1,225 @@
+{
+  "theme": "dark",
+  "project_name": "AMO — The Digital Home for Two",
+  "archetype": "LUXURY & EDITORIAL CINEMATIC (Deep Obsidian, Crimson & Warm Bone)",
+  "tagline": "LOVE IS PAYING ATTENTION. FEEL SEEN.",
+  "core_philosophy": "Falling in love is the beginning. Staying curious is a choice. Love becomes a verb: Notice. Ask. Listen. Remember.",
+  "fonts": {
+    "heading": "'Playfair Display Variable', Georgia, serif",
+    "sans": "'Plus Jakarta Sans Variable', system-ui, -apple-system, sans-serif",
+    "mono": "'JetBrains Mono Variable', monospace"
+  },
+  "colors": {
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#0A0A0B",
+        "on_bg": "#F5F3EF",
+        "on_bg_muted": "#A19E97",
+        "roles": {
+          "link": "#E63B48",
+          "error": "#FF4D5E",
+          "success": "#34D399",
+          "border": "#27272A",
+          "accent_highlight": "#E63B48"
+        }
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#121214",
+        "on_bg": "#F5F3EF",
+        "on_bg_muted": "#9CA3AF",
+        "roles": {
+          "border": "#27272A",
+          "active_tab": "#E63B48"
+        }
+      },
+      {
+        "name": "panel_secondary",
+        "kind": "solid",
+        "bg": "#18181B",
+        "on_bg": "#F5F3EF",
+        "on_bg_muted": "#A1A1AA",
+        "roles": {
+          "border": "#3F3F46"
+        }
+      },
+      {
+        "name": "hero",
+        "kind": "image",
+        "contrast_against": "#100D0E",
+        "guarantee": "scrim: linear-gradient(180deg, rgba(10,10,11,0.85) 0%, rgba(10,10,11,0.45) 50%, rgba(10,10,11,0.95) 100%)",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#D4D4D8",
+        "roles": {
+          "link": "#FF6B7A",
+          "error": "#FF4D5E",
+          "success": "#34D399"
+        }
+      },
+      {
+        "name": "glass_nav",
+        "kind": "glass",
+        "contrast_against": "#0D0D10",
+        "guarantee": "backdrop-blur-xl bg-[#0A0A0B]/80 border-b border-white/10",
+        "on_bg": "#F5F3EF",
+        "on_bg_muted": "#A19E97",
+        "roles": {
+          "active_link": "#E63B48"
+        }
+      },
+      {
+        "name": "badge_crimson",
+        "kind": "solid",
+        "bg": "#2D0A0E",
+        "on_bg": "#FF8A95",
+        "on_bg_muted": "#E63B48",
+        "roles": {
+          "border": "#5C141C"
+        }
+      },
+      {
+        "name": "sheet_bottom",
+        "kind": "solid",
+        "bg": "#121215",
+        "on_bg": "#F5F3EF",
+        "on_bg_muted": "#9CA3AF",
+        "roles": {
+          "border": "#27272A"
+        }
+      }
+    ],
+    "accent": "#E63B48",
+    "on_accent": "#FFFFFF"
+  },
+  "typography": {
+    "scale_px": {
+      "display": 60,
+      "h1": 48,
+      "h2": 36,
+      "h3": 24,
+      "body": 16,
+      "caption": 14
+    },
+    "rules": {
+      "h1_classes": "font-serif text-4xl sm:text-5xl lg:text-6xl font-medium tracking-tight text-[#F5F3EF] leading-[1.08]",
+      "h2_classes": "font-serif text-2xl sm:text-3xl lg:text-4xl font-normal tracking-tight text-[#F5F3EF] leading-[1.15]",
+      "h3_classes": "font-sans text-xl sm:text-2xl font-semibold tracking-normal text-[#F5F3EF]",
+      "body_classes": "font-sans text-base text-[#A19E97] leading-relaxed",
+      "eyebrow_classes": "font-mono uppercase tracking-[0.25em] text-xs text-[#E63B48] font-medium"
+    }
+  },
+  "entry_surfaces": {
+    "/": "cinematic dark scroll film with mystery hero, kinetic title reveal, glowing orb/audio atmosphere, interactive constellation, story rail and living community submission sheet",
+    "/explore": "interactive constellation portal with floating node map, relationship dimensions filter, and rich card preview overlay",
+    "/map": "fullscreen universe map of relationship nodes with canvas constellation particle links, zoom controls, and drawer details",
+    "/stories": "cinematic vertical 9:16 media gallery with curated relationship moments, playback audio toggles, and quote annotations",
+    "/journal": "editorial publication layout with featured essays on long-term love, psychology research insights, and slug detail reader",
+    "/community": "living wall of user submissions and ideas with interactive category tabs, upvotes, and global bottom sheet submission modal",
+    "/philosophy": "deep manifesto page with large editorial typography, 12-24 month research timeline, and AMO engine cycle diagram",
+    "/about": "narrative origin story of AMO, human relationship science manifesto, and subtle 3D bear mascot easter eggs"
+  },
+  "image_urls": {
+    "hero_intimacy": {
+      "url": "https://images.unsplash.com/photo-1521033719794-41049d18b8d4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwzfHxjb3VwbGUlMjBzdW5zZXQlMjBzaWxob3VldHRlJTIwZW1icmFjZXxlbnwwfHx8fDE3ODYwNDMxNjZ8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Silhouette of intimate couple embracing during golden sunset",
+      "category": "Hero / Atmospheric Backdrops",
+      "placement": "Homepage mystery hero background overlay & Philosophy header"
+    },
+    "hands_connection": {
+      "url": "https://images.unsplash.com/photo-1564020435666-f67ed5319a32?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwyfHxjb3VwbGUlMjBob2xkaW5nJTIwaGFuZHMlMjBpbnRpbWF0ZSUyMHJvbWFuY2V8ZW58MHx8fHwxNzkxMzg3OTY3fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Close-up of two hands held gently together",
+      "category": "Emotional Details",
+      "placement": "Chapter 4: LOVE BECOMES A VERB and Journal Featured Article"
+    },
+    "cafe_conversation": {
+      "url": "https://images.pexels.com/photos/6531837/pexels-photo-6531837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Couple engaged in deep conversation over coffee in warm ambient cafe",
+      "category": "Real Moments",
+      "placement": "Stories 9:16 frame 1 & Relationship Engine Action node"
+    },
+    "beach_silhouette": {
+      "url": "https://images.unsplash.com/photo-1591969851586-adbbd4accf81?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBzdW5zZXQlMjBzaWxob3VldHRlJTIwZW1icmFjZXxlbnwwfHx8fDE3ODYwNDMxNjZ8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Warm coastal evening silhouette of two lovers",
+      "category": "Stories Rail",
+      "placement": "Stories vertical card 2 & Community Header Banner"
+    },
+    "intimate_whisper": {
+      "url": "https://images.unsplash.com/photo-1561132667-ab2a54ebf2dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwyfHxjb3VwbGUlMjB0YWxraW5nJTIwY2FmZSUyMGludGltYXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzkxMzg3OTY3fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Intimate candid conversation between partners",
+      "category": "Stories Rail",
+      "placement": "Stories vertical card 3 & Journal Article 2"
+    }
+  },
+  "motion_and_interactions": {
+    "engine": "framer-motion + Lenis smooth scroll",
+    "marquee": "Slow editorial ribbon (duration 45s, seamless infinite loop) for AMO verbs: 'NOTICE · ASK · LISTEN · REMEMBER · CHOOSE · SURPRISE · ATTEND · SEE'",
+    "transitions": {
+      "chapter_reveals": "opacity & y-offset staggered line mask animations",
+      "phone_scene": "living relationship telemetry pulses with subtle orbit floating badges (Anniversaries, Micro-memories, Weekly check-in, Shared spark)",
+      "constellation": "Canvas particle nodes connected with glowing bezier links; hover glows node and reveals data card",
+      "bottom_sheet": "Spring entrance with backdrop blur, multi-category selector, interactive submission, and 'IDEA RECEIVED. ♥ / IDEA #184' confirmation modal"
+    }
+  },
+  "brand_mascots": {
+    "description": "Two 3D Bear companions (large calm dark-brown male bear 'Kodi' and smaller expressive light-brown bear with soft pink bow 'Mimi') appearing as discreet interactive easter eggs in the footer, community submission success state, and about page.",
+    "svg_mascot_mode": "Crafted crisp SVG/Canvas character representations with interactive breathing animations and heart particle emits on click."
+  },
+  "interactive_components": [
+    {
+      "name": "CinematicHero",
+      "path": "frontend/src/components/home/CinematicHero.tsx",
+      "description": "Masked title reveal, glowing ambient red-ruby core, subtle ambient audio toggle, and scroll indicator"
+    },
+    {
+      "name": "ResearchTimeline",
+      "path": "frontend/src/components/home/ResearchTimeline.tsx",
+      "description": "12 → 18 → 24 months research progression showing the silent drift and the scientific insight behind why romance transforms into conscious attention"
+    },
+    {
+      "name": "PhoneLivingScene",
+      "path": "frontend/src/components/home/PhoneLivingScene.tsx",
+      "description": "Custom high-fidelity phone mockup showing the AMO app interface with orbiting live telemetry widgets (Daily Question, Attention Meter, Date Sparks)"
+    },
+    {
+      "name": "AmoEngine",
+      "path": "frontend/src/components/home/AmoEngine.tsx",
+      "description": "Circular interactive loop: You Two → Context → Discovery → Action → Experience → Memory → Feedback → Learn → Repeat with step highlighter"
+    },
+    {
+      "name": "ConstellationWorldMap",
+      "path": "frontend/src/components/map/ConstellationWorldMap.tsx",
+      "description": "Interactive constellation galaxy where relationship milestones, micro-rituals, and questions are stellar nodes with filterable tags"
+    },
+    {
+      "name": "StoriesRail",
+      "path": "frontend/src/components/stories/StoriesRail.tsx",
+      "description": "Horizontal scrollable 9:16 vertical cards with video/audio placeholders, transcript quotes, and sound waves"
+    },
+    {
+      "name": "AddAmoBottomSheet",
+      "path": "frontend/src/components/community/AddAmoBottomSheet.tsx",
+      "description": "FastAPI + MongoDB wired submission modal supporting Categories (Date Idea, Feature, Relationship Wisdom, Bug, Feedback) with instant unique ID # response and live community update"
+    },
+    {
+      "name": "ReviewsLivingWall",
+      "path": "frontend/src/components/home/ReviewsLivingWall.tsx",
+      "description": "Verified couple testimonials wall with relationship duration tags (e.g. 'Together 7 years', 'Together 14 months') and authenticity metrics"
+    },
+    {
+      "name": "GetAmoComingSoon",
+      "path": "frontend/src/components/home/GetAmoComingSoon.tsx",
+      "description": "VIP Early Access / iOS & Android waitlist with email capture, invite code generator, and instant priority spot counter"
+    }
+  ],
+  "instructions_to_main_agent": [
+    "1. The frontend theme MUST be pure dark mode (#0A0A0B base) with rich deep obsidian panels, #E63B48 crimson active accents, and warm off-white #F5F3EF text. Never make it look like generic grey SaaS.",
+    "2. Install and initialize Lenis for smooth momentum scrolling on the cinematic homepage.",
+    "3. Implement the FastAPI backend routes in backend/routers/community.py and backend/routers/waitlist.py for handling community ideas and early access waitlist stored in MongoDB.",
+    "4. Ensure all pages exist: Home (/), /explore, /map, /stories, /journal, /journal/:slug, /community, /philosophy, /about, /privacy, /terms.",
+    "5. Use standard shadcn components (Sheet, Button, Dialog, Tabs, Badge, Input, Textarea, Select) styled to match the dark luxury editorial aesthetic.",
+    "6. Include data-testid on every interactive element, submission button, tab, and card."
+  ]
+}
