@@ -27,7 +27,7 @@ export function Hero() {
           transition={{ delay: 0.4, duration: 1 }}
           className="mb-8 font-mono text-[11px] tracking-[0.4em] uppercase text-fog"
         >
-          AMO — Feel seen
+          AMO — Make relationships stronger
         </motion.p>
         <h1 className="font-serif font-medium leading-[1.02] tracking-tight text-bone text-[13.5vw] sm:text-[11vw] lg:text-[8.5rem]">
           <MaskLines

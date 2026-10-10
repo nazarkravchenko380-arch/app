@@ -59,7 +59,7 @@ export function Finale() {
             stagger={0.3}
           />
           <Reveal delay={0.4}>
-            <p className="mt-6 font-mono text-xs tracking-[0.4em] uppercase text-fog">AMO — Feel seen</p>
+            <p className="mt-6 font-mono text-xs tracking-[0.4em] uppercase text-fog">AMO — Make relationships stronger</p>
           </Reveal>
         </div>
 

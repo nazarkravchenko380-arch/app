@@ -39,7 +39,7 @@ export function Footer() {
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
           <div className="max-w-xs space-y-4">
             <AmoWordmark size={30} />
-            <p className="font-mono text-xs tracking-[0.3em] uppercase text-crimson">Feel seen.</p>
+            <p className="font-mono text-xs tracking-[0.3em] uppercase text-crimson">Make relationships stronger.</p>
             <div className="flex gap-4 pt-2">
               <a data-testid="social-instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-fog transition-colors hover:text-crimson-soft">
                 <SiInstagram size={18} />
