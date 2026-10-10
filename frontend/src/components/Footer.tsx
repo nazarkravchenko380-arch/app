@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { SiInstagram, SiTiktok, SiYoutube } from "@icons-pack/react-simple-icons";
-import { AmoMark } from "@/components/AmoLogo";
+import { AmoWordmark } from "@/components/AmoLogo";
 import { AmoBears } from "@/components/AmoBears";
 
 const COLUMNS = [
@@ -38,10 +38,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8">
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
           <div className="max-w-xs space-y-4">
-            <div className="flex items-center gap-2">
-              <AmoMark size={26} />
-              <span className="font-serif text-xl tracking-[0.18em] text-bone">AMO</span>
-            </div>
+            <AmoWordmark size={30} />
             <p className="font-mono text-xs tracking-[0.3em] uppercase text-crimson">Feel seen.</p>
             <div className="flex gap-4 pt-2">
               <a data-testid="social-instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-fog transition-colors hover:text-crimson-soft">
