@@ -15,7 +15,7 @@ const DOES_LIST = [
 
 export function WhyAmo() {
   return (
-    <section data-testid="chapter-why-amo" className="border-t border-border bg-panel/40 py-32 sm:py-44">
+    <section data-testid="chapter-why-amo" className="py-32 sm:py-44">
       <div className="mx-auto max-w-5xl px-5 sm:px-8">
         <Eyebrow className="mb-6">Chapter 03 — Why AMO exists</Eyebrow>
         <MaskLines className="font-serif text-4xl leading-[1.1] text-bone sm:text-6xl" lines={["THAT IS WHY", "WE BUILT AMO."]} />

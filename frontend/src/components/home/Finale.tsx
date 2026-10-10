@@ -15,7 +15,7 @@ const FINAL_LINES = [
 export function Finale() {
   return (
     <>
-      <section data-testid="chapter-loop" className="border-t border-border py-32 sm:py-44">
+      <section data-testid="chapter-loop" className="py-32 sm:py-44">
         <div className="mx-auto max-w-3xl px-5 text-center sm:px-8">
           <Eyebrow className="mb-10">Chapter 11 — The loop</Eyebrow>
           <div className="space-y-0">
@@ -38,9 +38,9 @@ export function Finale() {
         </div>
       </section>
 
-      <section data-testid="chapter-final" className="border-t border-border">
+      <section data-testid="chapter-final">
         {FINAL_LINES.map((lines, i) => (
-          <div key={i} className={`flex min-h-[70svh] items-center justify-center px-5 ${i % 2 ? "bg-panel/40" : ""}`}>
+          <div key={i} className="flex min-h-[70svh] items-center justify-center px-5">
             <MaskLines
               className="text-center font-serif leading-[1.08] text-bone text-[9vw] sm:text-6xl lg:text-7xl"
               lines={lines.map((l, j) => (j === 1 ? <span key={j} className="italic text-crimson">{l}</span> : l))}
@@ -63,7 +63,7 @@ export function Finale() {
           </Reveal>
         </div>
 
-        <div id="get-amo" data-testid="get-amo" className="flex min-h-[80svh] scroll-mt-16 flex-col items-center justify-center border-t border-border bg-panel/40 px-5 text-center">
+        <div id="get-amo" data-testid="get-amo" className="flex min-h-[80svh] scroll-mt-16 flex-col items-center justify-center px-5 text-center">
           <Eyebrow className="mb-6">The last chapter is yours</Eyebrow>
           <MaskLines className="font-serif text-5xl leading-[1.05] text-bone sm:text-7xl" lines={["AMO IS", <span key="g" className="italic text-crimson">COMING SOON.</span>]} />
           <Reveal delay={0.25} className="mt-6 max-w-md text-base text-fog leading-relaxed">

@@ -70,7 +70,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-14 flex items-center justify-between border-t border-border pt-8">
-          <p className="text-xs text-fog/70">Made for two. <span className="text-crimson">♥</span></p>
+          <p className="text-xs text-fog/70">Made with amo <span className="text-crimson">♥</span></p>
           <AmoBears size={40} className="opacity-70 hover:opacity-100 transition-opacity" />
         </div>
       </div>

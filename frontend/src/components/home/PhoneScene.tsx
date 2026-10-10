@@ -12,7 +12,7 @@ const ORBITERS = ["AMO NOW", "How are they feeling?", "Something they saved", "Y
 
 export function PhoneScene() {
   return (
-    <section data-testid="chapter-phone" className="relative overflow-hidden border-t border-border py-32 sm:py-44">
+    <section data-testid="chapter-phone" className="relative overflow-hidden py-32 sm:py-44">
       <div className="mx-auto grid max-w-6xl items-center gap-16 px-5 sm:px-8 lg:grid-cols-2">
         <div>
           <Eyebrow className="mb-6">Chapter 04 — The product</Eyebrow>
@@ -43,7 +43,7 @@ export function PhoneScene() {
             whileHover={{ rotate: 0, scale: 1.02 }}
             initial={{ rotate: -2 }}
             transition={{ type: "spring", stiffness: 120, damping: 16 }}
-            className="relative rounded-[2.8rem] border border-border bg-panel p-3 shadow-[0_40px_120px_-30px_rgba(230,59,72,0.25)]"
+            className="relative rounded-[2.8rem] border border-border bg-panel p-3 shadow-[0_40px_120px_-30px_rgba(230,48,48,0.25)]"
           >
             <div className="rounded-[2.2rem] bg-ink px-5 pb-8 pt-10">
               <div className="mx-auto mb-6 h-1.5 w-16 rounded-full bg-border" />

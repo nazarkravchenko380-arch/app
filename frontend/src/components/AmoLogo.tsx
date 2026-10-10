@@ -31,7 +31,7 @@ function Masked({ src, aspect, color, clip, size }: { src: string; aspect: numbe
 }
 
 export function AmoMark({ size = 28 }: { size?: number }) {
-  return <Masked src={HEART_SRC} aspect={HEART_ASPECT} color="#E63B48" size={size} />;
+  return <Masked src={HEART_SRC} aspect={HEART_ASPECT} color="#E63030" size={size} />;
 }
 
 export function AmoWordmark({ size = 28 }: { size?: number }) {
@@ -47,7 +47,7 @@ export function AmoWordmark({ size = 28 }: { size?: number }) {
         <Masked src={LOGO_SRC} aspect={LOGO_ASPECT} color="#F5F3EF" clip={`inset(0 ${100 - HEART_START}% 0 0)`} size={size} />
       </span>
       <span className="absolute inset-0">
-        <Masked src={LOGO_SRC} aspect={LOGO_ASPECT} color="#E63B48" clip={`inset(0 0 0 ${HEART_START}%)`} size={size} />
+        <Masked src={LOGO_SRC} aspect={LOGO_ASPECT} color="#E63030" clip={`inset(0 0 0 ${HEART_START}%)`} size={size} />
       </span>
     </span>
   );

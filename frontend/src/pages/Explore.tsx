@@ -41,7 +41,7 @@ export default function Explore() {
                 <button
                   data-testid={`explore-node-${f.id}`}
                   onClick={() => setSelected(f)}
-                  className="group flex h-full w-full flex-col items-start gap-3 rounded-3xl border border-border bg-panel/60 p-6 text-left transition-all hover:-translate-y-1 hover:border-crimson/60 hover:shadow-[0_20px_60px_-20px_rgba(230,59,72,0.3)]"
+                  className="group flex h-full w-full flex-col items-start gap-3 rounded-3xl border border-border bg-panel/60 p-6 text-left transition-all hover:-translate-y-1 hover:border-crimson/60 hover:shadow-[0_20px_60px_-20px_rgba(230,48,48,0.3)]"
                 >
                   <span className="h-2 w-2 rounded-full bg-crimson transition-transform group-hover:scale-150" />
                   <span className="font-mono text-xs tracking-[0.25em] text-bone">{f.name}</span>

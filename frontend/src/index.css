@@ -48,7 +48,7 @@
     --color-panel2: #18181B;
     --color-bone: #F5F3EF;
     --color-fog: #A19E97;
-    --color-crimson: #E63B48;
+    --color-crimson: #E63030;
     --color-crimson-soft: #FF8A95;
     --color-wine: #2D0A0E;
     --radius-sm: calc(var(--radius) * 0.6);
@@ -67,7 +67,7 @@
     --card-foreground: #F5F3EF;
     --popover: #121215;
     --popover-foreground: #F5F3EF;
-    --primary: #E63B48;
+    --primary: #E63030;
     --primary-foreground: #FFFFFF;
     --secondary: #18181B;
     --secondary-foreground: #F5F3EF;
@@ -78,8 +78,8 @@
     --destructive: #FF4D5E;
     --border: #27272A;
     --input: #27272A;
-    --ring: #E63B48;
-    --chart-1: #E63B48;
+    --ring: #E63030;
+    --chart-1: #E63030;
     --chart-2: #FF8A95;
     --chart-3: #A19E97;
     --chart-4: #3F3F46;
@@ -87,12 +87,12 @@
     --radius: 0.625rem;
     --sidebar: #121214;
     --sidebar-foreground: #F5F3EF;
-    --sidebar-primary: #E63B48;
+    --sidebar-primary: #E63030;
     --sidebar-primary-foreground: #FFFFFF;
     --sidebar-accent: #18181B;
     --sidebar-accent-foreground: #F5F3EF;
     --sidebar-border: #27272A;
-    --sidebar-ring: #E63B48;
+    --sidebar-ring: #E63030;
 }
 
 @layer base {
@@ -103,7 +103,7 @@
     @apply bg-background text-foreground font-sans antialiased;
   }
   ::selection {
-    background: #E63B48;
+    background: #E63030;
     color: #fff;
   }
   html {

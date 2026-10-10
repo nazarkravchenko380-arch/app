@@ -55,7 +55,7 @@ export default function MapPage() {
       <Reveal delay={0.15} className="relative mt-14 h-[70svh] min-h-[480px] overflow-hidden rounded-3xl border border-border bg-panel/40">
         <svg className="absolute inset-0 h-full w-full" aria-hidden="true">
           {GROUPS.map((g) => (
-            <line key={g.id} x1="50%" y1="48%" x2={`${HUBS[g.id].x}%`} y2={`${HUBS[g.id].y}%`} stroke="#E63B48" strokeOpacity="0.25" strokeWidth="1" />
+            <line key={g.id} x1="50%" y1="48%" x2={`${HUBS[g.id].x}%`} y2={`${HUBS[g.id].y}%`} stroke="#E63030" strokeOpacity="0.25" strokeWidth="1" />
           ))}
           {nodes.filter((n) => n.hub).map((n) => (
             <line key={n.feature.id} x1={`${n.hub!.x}%`} y1={`${n.hub!.y}%`} x2={`${n.x}%`} y2={`${n.y}%`} stroke="#3F3F46" strokeWidth="1" strokeDasharray="2 5" />

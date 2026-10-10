@@ -19,7 +19,7 @@ export function VideoPlaceholder({
       className={`grain relative overflow-hidden bg-panel border border-border ${className}`}
       style={{ aspectRatio: ratio === "16/9" ? "16 / 9" : "9 / 16" }}
     >
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(230,59,72,0.10),transparent_65%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(230,48,48,0.10),transparent_65%)]" />
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 p-6 text-center">
         <span className="flex h-14 w-14 items-center justify-center rounded-full border border-crimson/50 bg-wine/60">
           <Play className="h-5 w-5 text-crimson-soft" fill="currentColor" />

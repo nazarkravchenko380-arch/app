@@ -8,7 +8,7 @@ import { ARTICLES } from "@/content/journal";
 export function JournalCommunity() {
   const { openSheet } = useAddToAmo();
   return (
-    <section data-testid="chapter-journal-community" className="border-t border-border py-32">
+    <section data-testid="chapter-journal-community" className="py-32">
       <div className="mx-auto grid max-w-6xl gap-20 px-5 sm:px-8 lg:grid-cols-2">
         <div>
           <Eyebrow className="mb-6">Chapter 08 — The journal</Eyebrow>
@@ -72,7 +72,7 @@ export function ReviewsWall() {
   const reviews = !isError && data ? data : [];
 
   return (
-    <section data-testid="chapter-reviews" className="border-t border-border bg-panel/40 py-32">
+    <section data-testid="chapter-reviews" className="py-32">
       <div className="mx-auto max-w-4xl px-5 text-center sm:px-8">
         <Eyebrow className="mb-6">Chapter 10 — Voices</Eyebrow>
         <MaskLines className="font-serif text-4xl leading-[1.1] text-bone sm:text-5xl" lines={["FROM PEOPLE USING AMO."]} />

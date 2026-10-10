@@ -5,7 +5,7 @@ import { STORIES } from "@/content/stories";
 
 export function HomeStories() {
   return (
-    <section data-testid="chapter-stories" className="border-t border-border bg-panel/40 py-32">
+    <section data-testid="chapter-stories" className="py-32">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Eyebrow className="mb-6">Chapter 07 — AMO Stories</Eyebrow>
         <MaskLines className="font-serif text-4xl leading-[1.08] text-bone sm:text-5xl" lines={["STORIES ABOUT", "THE LITTLE THINGS."]} />

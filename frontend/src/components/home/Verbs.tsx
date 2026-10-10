@@ -8,7 +8,7 @@ export function Verbs() {
   const [agains, setAgains] = useState<number[]>([]);
 
   return (
-    <section data-testid="chapter-verbs" className="relative border-t border-border py-36 sm:py-48">
+    <section data-testid="chapter-verbs" className="relative py-36 sm:py-48">
       <div className="mx-auto max-w-5xl px-5 sm:px-8">
         <MaskLines
           className="font-serif leading-[1.02] text-bone text-[13vw] sm:text-[10vw] lg:text-8xl"

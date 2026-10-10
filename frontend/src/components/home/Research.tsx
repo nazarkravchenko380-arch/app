@@ -14,7 +14,7 @@ export function Research() {
 
   return (
     <>
-      <section data-testid="chapter-research" className="relative border-t border-border bg-panel/40">
+      <section data-testid="chapter-research" className="relative">
         <div className="mx-auto max-w-4xl px-5 pt-28 sm:px-8">
           <Eyebrow className="mb-6">Chapter 02 — What researchers noticed</Eyebrow>
           <MaskLines

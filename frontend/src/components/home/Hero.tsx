@@ -18,7 +18,7 @@ export function Hero() {
       <motion.div
         aria-hidden="true"
         style={{ y: glowY, scale }}
-        className="absolute left-1/2 top-1/2 h-[80vmin] w-[80vmin] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(230,59,72,0.22),rgba(230,59,72,0.05)_45%,transparent_70%)] blur-2xl animate-pulse-soft"
+        className="absolute left-1/2 top-1/2 h-[80vmin] w-[80vmin] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(230,48,48,0.22),rgba(230,48,48,0.05)_45%,transparent_70%)] blur-2xl animate-pulse-soft"
       />
       <motion.div style={{ opacity: fade }} className="relative z-10 flex flex-1 flex-col items-center justify-center px-5 text-center">
         <motion.p

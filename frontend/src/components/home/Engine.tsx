@@ -17,7 +17,7 @@ export function Engine() {
   }, [inView]);
 
   return (
-    <section data-testid="chapter-engine" className="border-t border-border bg-panel/40 py-32 sm:py-44">
+    <section data-testid="chapter-engine" className="py-32 sm:py-44">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Eyebrow className="mb-6 text-center">Chapter 05 — How AMO thinks</Eyebrow>
         <MaskLines className="text-center font-serif text-4xl leading-[1.1] text-bone sm:text-5xl" lines={["WHAT COULD WE DO NEXT?"]} />
@@ -44,7 +44,7 @@ export function Engine() {
                 onClick={() => setActive(i)}
                 className={`absolute -translate-x-1/2 -translate-y-1/2 rounded-full border px-3 py-1.5 font-mono text-[9px] tracking-[0.18em] transition-all duration-500 sm:text-[10px] ${
                   isActive
-                    ? "border-crimson bg-crimson text-white scale-110 shadow-[0_0_30px_rgba(230,59,72,0.45)]"
+                    ? "border-crimson bg-crimson text-white scale-110 shadow-[0_0_30px_rgba(230,48,48,0.45)]"
                     : "border-border bg-panel2/80 text-fog hover:border-crimson/50"
                 }`}
                 style={{ left: `${x}%`, top: `${y}%` }}
