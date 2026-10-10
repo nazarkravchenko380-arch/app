@@ -35,6 +35,7 @@ export function MaskLines({
   delay = 0,
   stagger = 0.12,
   mode = "view",
+  when = true,
 }: {
   lines: ReactNode[];
   className?: string;
@@ -42,12 +43,13 @@ export function MaskLines({
   delay?: number;
   stagger?: number;
   mode?: "view" | "load";
+  when?: boolean;
 }) {
   // Observe the container, never the translated span: an overflow-hidden mask clips the
   // span out of IntersectionObserver's intersection, so whileInView on it never fires.
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, margin: "-40px" });
-  const show = mode === "load" || inView;
+  const show = when && (mode === "load" || inView);
   return (
     <div ref={ref} className={className}>
       {lines.map((line, i) => (

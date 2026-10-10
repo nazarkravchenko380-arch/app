@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { AddToAmoProvider } from "@/components/community/AddToAmo";
+import { IntroProvider } from "@/components/Preloader";
 import Home from "@/pages/Home";
 import Philosophy from "@/pages/Philosophy";
 import Explore from "@/pages/Explore";
@@ -45,7 +46,8 @@ export default function App() {
   }, [location.pathname, location.hash]);
 
   return (
-    <AddToAmoProvider>
+    <IntroProvider>
+      <AddToAmoProvider>
       <div className="min-h-svh bg-ink text-bone">
         <Nav />
         <main>
@@ -66,6 +68,7 @@ export default function App() {
         <Footer />
       </div>
       <Toaster />
-    </AddToAmoProvider>
+      </AddToAmoProvider>
+    </IntroProvider>
   );
 }

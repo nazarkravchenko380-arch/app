@@ -1,9 +1,11 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
 import { MaskLines } from "@/components/Reveal";
+import { useIntroReady } from "@/components/Preloader";
 
 export function Hero() {
   const ref = useRef<HTMLElement>(null);
+  const ready = useIntroReady();
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const glowY = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
   const fade = useTransform(scrollYProgress, [0, 0.7], [1, 0]);
@@ -21,7 +23,7 @@ export function Hero() {
       <motion.div style={{ opacity: fade }} className="relative z-10 flex flex-1 flex-col items-center justify-center px-5 text-center">
         <motion.p
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          animate={ready ? { opacity: 1 } : { opacity: 0 }}
           transition={{ delay: 0.4, duration: 1 }}
           className="mb-8 font-mono text-[11px] tracking-[0.4em] uppercase text-fog"
         >
@@ -30,6 +32,7 @@ export function Hero() {
         <h1 className="font-serif font-medium leading-[1.02] tracking-tight text-bone text-[13.5vw] sm:text-[11vw] lg:text-[8.5rem]">
           <MaskLines
             mode="load"
+            when={ready}
             delay={0.25}
             stagger={0.16}
             lines={[
@@ -42,7 +45,7 @@ export function Hero() {
         </h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          animate={ready ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ delay: 1.1, duration: 0.9 }}
           className="mt-8 max-w-md text-base text-fog leading-relaxed sm:text-lg"
         >
@@ -50,7 +53,7 @@ export function Hero() {
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          animate={ready ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ delay: 1.35, duration: 0.9 }}
           className="mt-10 flex flex-wrap items-center justify-center gap-4"
         >
